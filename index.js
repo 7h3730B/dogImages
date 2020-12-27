@@ -29,7 +29,6 @@ window.onload = () => {
                 dog = cache[Math.floor(Math.random() * cache.length)];
             }
             images[i].src = dog;
-            console.log(cache.length);
         }
         setTimeout(update, 1000);
     }
