@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "Dog Images!!",
+    "description": "Replaces all images with Images of dogs",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["index.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "version": "0.0.3"
+}
