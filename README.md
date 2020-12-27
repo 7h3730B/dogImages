@@ -1,5 +1,3 @@
 # dogImages
 Replaces every image on a website to dog images
-## PLS don't use this. It makes a request for every image to: [dog.ceo](https://dog.ceo/) 
-## TODO:
-Maybe store the pictures in some kind of cache so it only makes a request for example 200 pictures stores them and then gets the pictures from the cache
+It gets the first 100 images from [dog.ceo](https://dog.ceo) after that it gets them from the cache (which is refreshed every hour) thanks to local storage the cache can be used on every new tab.

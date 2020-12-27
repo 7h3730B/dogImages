@@ -3,7 +3,8 @@
     "name": "Dog Images!!",
     "description": "Replaces all images with Images of dogs",
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "storage"
     ],
     "content_scripts": [
         {
